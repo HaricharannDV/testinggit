@@ -9,6 +9,7 @@ import service.QuizServiceImp;
 
 //checking for pull
 
+//pull successful
 public class QuizTest {
 	@Autowired
 	QuizServiceImp quizServiceImp;
