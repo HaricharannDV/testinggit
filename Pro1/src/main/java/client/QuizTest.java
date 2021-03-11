@@ -7,6 +7,8 @@ import bean.QuizConfig;
 import model.Questions;
 import service.QuizServiceImp;
 
+//checking for pull
+
 public class QuizTest {
 	@Autowired
 	QuizServiceImp quizServiceImp;
