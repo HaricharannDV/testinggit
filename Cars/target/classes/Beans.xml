@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    
+    
+    
+<bean id="w"  class="Spring.Cars.Wheel"  >
+    <constructor-arg index="0" value="101"/>
+    <constructor-arg index="1" value="898.89"/>
+</bean>
+
+<bean id="e"  class="Spring.Cars.Engine">
+    <property name="model" value="Sedan"/>
+</bean>
+    
+</beans>
